@@ -48,6 +48,10 @@
             "FlubuCore": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "FlubuCore.Runner": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [

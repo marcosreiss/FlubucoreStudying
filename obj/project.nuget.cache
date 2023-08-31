@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iQveufVjSBzJDtGTytTlYf20xJkq5OVI0CXwClYD621L01glgpwB35QBeagSuHshnrk9tVA3TXFTmR75HDX9SA==",
+  "dgSpecHash": "ikHQpuaB+ko5YBKgZIHx3B38XMiDv/sidK2XQcf4S5NK14dqB+pZAAwyl4HUE32m1+wY//7eHoDDJTiP+Bg6rg==",
   "success": true,
   "projectFilePath": "C:\\work\\TestandoFlubuCore\\TestandoFlubuCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mvini\\.nuget\\packages\\flubucore\\7.0.1\\flubucore.7.0.1.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\flubucore.analyzers\\1.0.4\\flubucore.analyzers.1.0.4.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\flubucore.dotnet.cli.utils\\3.1.2\\flubucore.dotnet.cli.utils.3.1.2.nupkg.sha512",
+    "C:\\Users\\mvini\\.nuget\\packages\\flubucore.runner\\7.0.1\\flubucore.runner.7.0.1.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\flubucore.webapi.client\\7.0.1\\flubucore.webapi.client.7.0.1.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\flubucore.webapi.model\\7.0.1\\flubucore.webapi.model.7.0.1.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\glob\\1.1.9\\glob.1.1.9.nupkg.sha512",
@@ -141,5 +142,16 @@
     "C:\\Users\\mvini\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\yamldotnet\\8.1.2\\yamldotnet.8.1.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'FlubuCore.Runner 7.0.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "FlubuCore.Runner",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

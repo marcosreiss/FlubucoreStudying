@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "TestandoFlubuCore/1.0.0": {
         "dependencies": {
-          "FlubuCore": "7.0.1"
+          "FlubuCore": "7.0.1",
+          "FlubuCore.Runner": "7.0.1"
         },
         "runtime": {
           "TestandoFlubuCore.dll": {}
@@ -111,6 +112,7 @@
           }
         }
       },
+      "FlubuCore.Runner/7.0.1": {},
       "FlubuCore.WebApi.Client/7.0.1": {
         "dependencies": {
           "FlubuCore.WebApi.Model": "7.0.1",
@@ -1563,6 +1565,13 @@
       "sha512": "sha512-njwgXpZOd/uRhND2ptSX9UpjY4hCdkEHUqS/DhdR6r17a/QuB1vPF/U2XHIN4KXC7Dcc5gnQjgX/cyoH92rMIw==",
       "path": "flubucore.dotnet.cli.utils/3.1.2",
       "hashPath": "flubucore.dotnet.cli.utils.3.1.2.nupkg.sha512"
+    },
+    "FlubuCore.Runner/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p/xCMXdHOFdXyi7x3l0Cx2uY8PnkTohLagVhdLQpVGt2kssTpQT6tbidiA0eQkjuow3JnOimbeiv+KGQIK2PoQ==",
+      "path": "flubucore.runner/7.0.1",
+      "hashPath": "flubucore.runner.7.0.1.nupkg.sha512"
     },
     "FlubuCore.WebApi.Client/7.0.1": {
       "type": "package",

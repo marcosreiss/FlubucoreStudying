@@ -27,6 +27,7 @@
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\mvini\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgFlubuCore_Runner Condition=" '$(PkgFlubuCore_Runner)' == '' ">C:\Users\mvini\.nuget\packages\flubucore.runner\7.0.1</PkgFlubuCore_Runner>
     <PkgFlubuCore_Analyzers Condition=" '$(PkgFlubuCore_Analyzers)' == '' ">C:\Users\mvini\.nuget\packages\flubucore.analyzers\1.0.4</PkgFlubuCore_Analyzers>
   </PropertyGroup>
 </Project>
